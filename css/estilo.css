@@ -1,0 +1,134 @@
+:root {--clr-primary-300: whitesmoke;
+       --clr-primary-400: #b3cfe5;
+       --clr-neutral-800: #222;
+       --clr-neutral-100: white;
+       --clr-bg-444: #d7e3e1;
+       --ff-primary:'STIX Two Text', serif; 
+       --ff-neutral:'Source Sans Pro', sans-serif;}
+
+
+/*NAVBAR*/
+.navbar { padding-top: 15px;
+          padding-bottom: 15px;}
+
+.navbar-brand {font-family: var(--ff-primary);
+               font-size: 1.5rem;
+               color:var(--clr-primary-300);}
+
+.nav-link {color: var(--clr-primary-300);
+           list-style-type: none;
+           font-family: var(--ff-primary);
+           font-size: 1rem;
+           font-weight: 250;
+           letter-spacing: 0.1rem;}
+
+/* BODY */
+
+body{ font-family: var(--ff-neutral);
+      font-weight: 400;
+      font-size: 1.31rem;
+      line-height: 1.6;
+      background-color: var(--clr-bg-444);}
+
+h1 {color: #5b3a29;
+    font-family: var(--ff-primary);
+    font-size: 5rem;
+    font-weight: bold ;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration:underline var(--clr-neutral-800) 2px;}
+h1:hover {transform: scale(1.3);
+          transition: all 2.2s;}
+
+.textoUno {font-weight: bold;}
+
+h2 {font-family: var(--ff-neutral);
+    font-size: 3rem;
+    font-weight: bold ;
+    letter-spacing: 0.1rem;
+    text-align: center;}          
+h2:hover {transform: rotate(45deg);
+    transition: all 1.3s;}
+
+h3 {color: var(--clr-bg-444);
+    font-family: var(--ff-primary);
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 5px;
+    text-decoration:underline var(--clr-primary-300) 2px;}
+h3:hover {transform: scale(1.3);
+          transition: all 2.2s;}
+
+section {padding: 2rem 0;}
+
+.container {margin-inline: auto;
+            width: min (90%, 70,5rem);
+            text-align: center;
+            padding-bottom: 10px;}
+
+.split {display: flex;
+        flex-direction: column;}
+    
+.bg-color-uno {background-color: var(--clr-neutral-800);}
+
+.splitUno {color: whitesmoke;
+           font-family: var(--ff-neutral);
+           text-align: center;}
+
+.ajusteUno{margin-top: 3rem;}
+
+.bg-color-dos {background-image:linear-gradient(--clr-neutral-100, --clr-primary-400);}
+
+.splitDos {color: var(--clr-neutral-800);
+           font-family: var(--ff-primary);
+           text-align: center;}
+
+h4 {color: var(--clr-neutral-800);
+    font-family: var(--ff-neutral);
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 10px;
+    text-decoration:underline var(--clr-neutral-800) 2px;}
+
+h4:hover {transform: scale(1.3);
+          transition: all 2.2s;}
+
+    @media (min-width: 40rem)
+        {.split {flex-direction: row;}
+         .split>* {flex-basis: 100%;}}
+
+img {max-width: 100%;
+     display: block;}
+
+/*CARROUSEL*/
+
+.carousel-item{width: 100%;
+               height: 500px;}
+
+/*FOOTER*/
+    .footerUno { background-color: var(--clr-neutral-800);
+                 width: 100%;
+                 height: 100px;
+                 font-weight: 300;
+                 font-size: 100%;
+                 display: flex;
+                 flex-direction:row;
+                 justify-content:center;
+                 padding-top: 10px;
+                 color: var(--clr-bg-444);
+                 font-family: var(--ff-primary);}
+
+/*TOOKA*/
+.tituloCont {color: #222 ;}         
+.textoCont  {font-weight: bolder;}
+.form-label { font-weight: bolder;}
+.formulario {list-style-type: none;
+             font-weight: bolder;
+             transform: none !important;
+             transition: none!important;}
+             
